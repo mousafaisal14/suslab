@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suselab by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-sorting(failed)">
+    <groups>
+      <run>
+        <include name="sorting"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="suselaben.TestngStart">
+        <methods>
+          <include name="Test_Sorting_low_to_high"/>
+          <include name="Test_Sorting_high_to_low"/>
+        </methods>
+      </class> <!-- suselaben.TestngStart -->
+    </classes>
+  </test> <!-- GRP-sorting(failed) -->
+</suite> <!-- Failed suite [suselab by groups] -->

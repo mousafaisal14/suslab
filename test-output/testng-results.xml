@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-31T12:40:59 EET" name="Default suite" finished-at="2024-01-31T12:41:08 EET" duration-ms="9385">
+    <groups>
+      <group name="sorting">
+        <method signature="TestngStart.Test_Sorting_low_to_high()[pri:1, instance:suselaben.TestngStart@639c2c1d]" name="Test_Sorting_low_to_high" class="suselaben.TestngStart"/>
+        <method signature="TestngStart.Test_Sorting_high_to_low()[pri:2, instance:suselaben.TestngStart@639c2c1d]" name="Test_Sorting_high_to_low" class="suselaben.TestngStart"/>
+      </group> <!-- sorting -->
+      <group name="cart">
+        <method signature="TestngStart.cart()[pri:0, instance:suselaben.TestngStart@639c2c1d]" name="cart" class="suselaben.TestngStart"/>
+      </group> <!-- cart -->
+    </groups>
+    <test started-at="2024-01-31T12:40:59 EET" name="Default test" finished-at="2024-01-31T12:41:08 EET" duration-ms="9385">
+      <class name="suselaben.TestngStart">
+        <test-method is-config="true" signature="login()[pri:0, instance:suselaben.TestngStart@639c2c1d]" started-at="2024-01-31T12:40:59 EET" name="login" finished-at="2024-01-31T12:41:02 EET" duration-ms="2964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="cart()[pri:0, instance:suselaben.TestngStart@639c2c1d]" started-at="2024-01-31T12:41:02 EET" name="cart" finished-at="2024-01-31T12:41:02 EET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method signature="Test_Sorting_low_to_high()[pri:1, instance:suselaben.TestngStart@639c2c1d]" started-at="2024-01-31T12:41:02 EET" name="Test_Sorting_low_to_high" finished-at="2024-01-31T12:41:05 EET" duration-ms="3198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Sorting_low_to_high -->
+        <test-method signature="Test_Sorting_high_to_low()[pri:2, instance:suselaben.TestngStart@639c2c1d]" started-at="2024-01-31T12:41:05 EET" name="Test_Sorting_high_to_low" finished-at="2024-01-31T12:41:08 EET" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Sorting_high_to_low -->
+      </class> <!-- suselaben.TestngStart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
